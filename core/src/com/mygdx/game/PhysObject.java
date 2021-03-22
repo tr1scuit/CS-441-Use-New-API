@@ -11,8 +11,10 @@ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 public class PhysObject {
 
     Texture img;
-    int posX, velX;
-    int posY, velY;
+    int posX;
+    int posY;
+    float velX;
+    float velY;
 
 
     public PhysObject(Texture a, int posX, int posY){
@@ -23,6 +25,14 @@ public class PhysObject {
         this.velY = 0;
     }
 
+    public PhysObject(Texture a, int posX, int posY, float velX, float velY){
+        img = a;
+        this.posX = posX;
+        this.posY = posY;
+        this.velX = velX;
+        this.velY = velY;
+    }
+
     public int getX() {
         return posX;
     }
@@ -31,11 +41,11 @@ public class PhysObject {
         return posY;
     }
 
-    public int getXVel() {
+    public float getXVel() {
         return velX;
     }
 
-    public int getYVel() {
+    public float getYVel() {
         return velY;
     }
 
