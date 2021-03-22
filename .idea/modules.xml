@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CS-441-Use-New-API.iml" filepath="$PROJECT_DIR$/.idea/modules/CS-441-Use-New-API.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/android/CS-441-Use-New-API.android.iml" filepath="$PROJECT_DIR$/.idea/modules/android/CS-441-Use-New-API.android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/CS-441-Use-New-API.core.iml" filepath="$PROJECT_DIR$/.idea/modules/core/CS-441-Use-New-API.core.iml" />
+    </modules>
+  </component>
+</project>
